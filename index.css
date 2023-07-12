@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(238, 122, 238);
+  width: 95vw;
+  color: beige;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+header{
+  width: 95%;
+  max-width: 788px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  margin: 15px;
+}
+
+.share-button {
+  width: 40px;
+  height: 40px;
+  border-radius:20px;
+  background:transparent;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) ;
+  backdrop-filter: blur(20px);
+
+ }
+ .share-button svg {
+   margin-left: 10px;
+   margin-top: 8px;
+   height: 25px;
+   width: 25px;
+ }
+
+ .wrapper {
+  width: 91%;
+  max-width: 680px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ }
+ .image-wrap {
+  height: 96px;
+  width: 96px;
+  border-radius: 48px;
+  overflow: hidden;
+ }
+ .image-wrap img {
+  height: 100%;
+  }
+
+  h1  {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    color: beige;
+  }
+
+  p {
+    font-size: 15px;
+    font-style: italic;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: beige;
+ 
+     }
+     .descript {
+      width: 90%;
+      text-align: center;
+      color: #000;
+     }
+
+ a {
+    text-decoration: none;
+    color: beige;
+  }
+  
+  .tile {
+  width:100%;
+  height: 40px;
+  margin: 7px;
+  border-radius: 17px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow:hidden;
+
+}
+
+.tile:hover {
+  transform: scale(1.02);
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+}
+.tile-share-butt {
+  margin: 8px;
+  width: 35px;
+  height: 35px;
+  border-radius: 17.5px;
+  background:transparent;
+}
+.tile-share-butt svg {
+  margin-left: 10px;
+  margin-top: 8px;
+  height: 25px;
+  width: 25px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+.tile-image {
+  width: 35px;
+  border-radius: 17.5px;
+  overflow: hidden;
+
+}
